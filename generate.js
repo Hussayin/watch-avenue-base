@@ -2,10 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Kataloglar ro'yxati
-const directories = [
-  "./MauriceLacroix",
-  // "./Frederique-Constant-done",
-]; // Kataloglarni qo'shing
+const directories = ["./MauriceLacroix", "./frederique"]; // Kataloglarni qo'shing
 
 // Natijani yozish uchun HTML fayl
 const outputFile = "./index.html";
